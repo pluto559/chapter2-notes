@@ -42,3 +42,7 @@ if (secret == 15){
 }
 
 // 5 & 6
+let cost = number(readline.question("Enter meal cost: "));
+let tax = cost * .08;
+let newcost = cost + tax
+console.log(`your cost is ${newCost.toFixed(2)}`);
